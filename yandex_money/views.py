@@ -59,6 +59,7 @@ class BaseView(View):
 
         self.logging(request, params)
         content = self.get_xml(params)
+        print params
 
         if (
             getattr(settings, 'YANDEX_MONEY_MAIL_ADMINS_ON_PAYMENT_ERROR', True) and
