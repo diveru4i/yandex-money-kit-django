@@ -153,7 +153,7 @@ class Payment(models.Model):
             ('shop_id', 'order_number'),
         )
         verbose_name = u'платёж'
-        verbose_name_plural = u'платежи'
+        verbose_name_plural = u'Платежи Яндекс.Кассы'
         app_label = 'yandex_money'
 
     def __unicode__(self):
